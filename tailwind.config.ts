@@ -52,6 +52,12 @@ export default {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
 				},
+				'vekt-teal': 'hsl(var(--vekt-teal))',
+				'vekt-coral': 'hsl(var(--vekt-coral))',
+				'vekt-dark': 'hsl(var(--vekt-dark))',
+				'vekt-light': 'hsl(var(--vekt-light))',
+				'chart-teal': 'hsl(var(--chart-teal))',
+				'chart-coral': 'hsl(var(--chart-coral))',
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
 					foreground: 'hsl(var(--sidebar-foreground))',

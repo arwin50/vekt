@@ -8,7 +8,7 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
+    --background: 0 0% 98%;
     --foreground: 222.2 84% 4.9%;
 
     --card: 0 0% 100%;
@@ -35,6 +35,16 @@ All colors MUST be HSL.
     --border: 214.3 31.8% 91.4%;
     --input: 214.3 31.8% 91.4%;
     --ring: 222.2 84% 4.9%;
+
+    /* Vekt Brand Colors */
+    --vekt-teal: 162 88% 40%;
+    --vekt-coral: 0 71% 73%;
+    --vekt-dark: 222.2 84% 4.9%;
+    --vekt-light: 0 0% 95%;
+    
+    /* Chart Colors */
+    --chart-teal: 162 88% 40%;
+    --chart-coral: 0 71% 73%;
 
     --radius: 0.5rem;
 
