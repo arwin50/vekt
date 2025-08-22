@@ -1,9 +1,9 @@
-import React from "react";
-import Navigation from "@/components/Navigation";
-import HeroSection from "@/components/HeroSection";
-import SolutionsSection from "@/components/SolutionsSection";
-import TeamSection from "@/components/TeamSection";
-import ContactSection from "@/components/ContactSection";
+import React from 'react';
+import Navigation from '@/components/Navigation';
+import HeroSection from '@/components/HeroSection';
+import SolutionsSection from '@/components/SolutionsSection';
+import TeamSection from '@/components/TeamSection';
+import ContactSection from '@/components/ContactSection';
 
 const Index = () => {
   return (
