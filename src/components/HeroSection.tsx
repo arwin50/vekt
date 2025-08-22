@@ -1,8 +1,6 @@
 import React from 'react';
-
 const HeroSection = () => {
-  return (
-    <section className="w-full min-h-[80vh] flex items-center px-8">
+  return <section className="w-full min-h-[80vh] flex items-center px-8">
       <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
         {/* Left Content */}
         <div className="space-y-6">
@@ -18,42 +16,13 @@ const HeroSection = () => {
         {/* Right Visualization */}
         <div className="relative w-full h-96 flex items-center justify-center">
           {/* Geometric Lines */}
-          <svg 
-            className="absolute inset-0 w-full h-full" 
-            viewBox="0 0 400 300" 
-            xmlns="http://www.w3.org/2000/svg"
-          >
+          <svg className="absolute inset-0 w-full h-full" viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
             {/* Chart Lines */}
-            <path 
-              d="M50 200 L120 150 L180 120 L240 100 L300 80 L350 70" 
-              stroke="black" 
-              strokeWidth="3" 
-              fill="none"
-            />
-            <path 
-              d="M50 250 L120 180 L180 160 L240 140 L300 120 L350 110" 
-              stroke="black" 
-              strokeWidth="3" 
-              fill="none"
-            />
-            <path 
-              d="M50 180 L120 220 L180 190 L240 170 L300 150 L350 140" 
-              stroke="black" 
-              strokeWidth="3" 
-              fill="none"
-            />
-            <path 
-              d="M80 100 L150 160 L210 140 L270 120 L330 100 L380 90" 
-              stroke="black" 
-              strokeWidth="3" 
-              fill="none"
-            />
-            <path 
-              d="M20 150 L90 200 L150 180 L210 160 L270 140 L320 130" 
-              stroke="black" 
-              strokeWidth="3" 
-              fill="none"
-            />
+            <path d="M50 200 L120 150 L180 120 L240 100 L300 80 L350 70" stroke="black" strokeWidth="3" fill="none" />
+            <path d="M50 250 L120 180 L180 160 L240 140 L300 120 L350 110" stroke="black" strokeWidth="3" fill="none" />
+            <path d="M50 180 L120 220 L180 190 L240 170 L300 150 L350 140" stroke="black" strokeWidth="3" fill="none" />
+            <path d="M80 100 L150 160 L210 140 L270 120 L330 100 L380 90" stroke="black" strokeWidth="3" fill="none" />
+            <path d="M20 150 L90 200 L150 180 L210 160 L270 140 L320 130" stroke="black" strokeWidth="3" fill="none" />
 
             {/* Data Points - Teal */}
             <circle cx="180" cy="120" r="8" fill="hsl(var(--vekt-teal))" />
@@ -73,8 +42,6 @@ const HeroSection = () => {
           </svg>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default HeroSection;
